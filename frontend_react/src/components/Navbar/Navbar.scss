@@ -7,6 +7,7 @@
 
     padding: 1rem 2rem;
     background: rgba(255, 255, 255, .25);
+    background-color: var(--pastelblack-color);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, .18);
@@ -18,6 +19,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: var(--white-color);
 
     img {
         width: 90px;
@@ -54,7 +56,7 @@
         }
 
         a {
-            color: var(--gray-color);
+            color: var(--white-color);
             text-decoration: none;
             flex-direction: column;
 
