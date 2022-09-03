@@ -53,7 +53,7 @@
 
     p {
         text-transform: uppercase;
-        color: var(--black-color);
+        color: var(--white-color);
     }
 }
 
@@ -61,7 +61,27 @@
     font-size: 2.75rem;
     font-weight: 800;
     text-align: center;
-    color: var(--black-color);
+    color: var(--white-color);
+    text-transform: capitalize;
+
+    span {
+        color: var(--secondary-color);
+    }
+
+    @media screen and (min-width: 2000px) {
+        font-size: 4rem;
+    }
+
+    @media screen and (max-width: 450px) {
+        font-size: 2rem;
+    }
+}
+
+.head-text-black {
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--pastelblack-color);
     text-transform: capitalize;
 
     span {
@@ -91,7 +111,22 @@
 .bold-text {
     font-size: 1rem;
     font-weight: 800;
-    color: var(--black-color);
+    color: var(--white-color);
+    text-align: left;
+
+    @media screen and (min-width: 2000px) {
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width: 450px) {
+        font-size: 0.9rem;
+    }
+}
+
+.bold-text-black {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--pastelblack-color);
     text-align: left;
 
     @media screen and (min-width: 2000px) {
@@ -123,13 +158,13 @@
         transition: all 0.3s ease-in-out;
 
         svg {
-            width: 15px;
-            height: 15px;
+            width: 17px;
+            height: 17px;
             color: var(--gray-color);
         }
 
         &:hover {
-            background-color: var(--secondary-color);
+            background-color: var(--pastelpurple-color);
             border-color: var(--secondary-color);
 
             svg {
@@ -152,7 +187,7 @@
 
 .app__navigation {
     display: flex;
-    justify-content: center;
+    margin-top: 40vh;
     align-items: center;
     flex-direction: column;
     padding: 1rem;
@@ -161,12 +196,12 @@
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #cbcbcb;
+        background-color: var(--white-color);
         margin: 0.5rem;
         transition: background-color 0.2s ease-in-out;
 
         &:hover {
-            background-color: var(--secondary-color);
+            background-color: var(--pastelpurple-color);
         }
 
         @media screen and (min-width: 2000px) {

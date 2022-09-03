@@ -38,7 +38,7 @@ const Footer = () => {
 
     return (
         <>
-            <h2 className="head-text">Take a coffee chat with me!</h2>
+            <h2 className="head-text">Let's have a coffee chat!</h2>
 
             <div className="app__footer-cards">
                 <div className="app__footer-card">
@@ -85,5 +85,5 @@ const Footer = () => {
 export default AppWrap(
     MotionWrap(Footer, 'app__footer'),
     'contact',
-    'app__brownbg',
+    'app__primarybg',
 )
